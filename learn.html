@@ -1,0 +1,77 @@
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Benang Sihir Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header3">
+        <nav>
+            <a href="home.html"><img src="gambar/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="product.html">PRODUCT</a></li>
+                    <li><a href="learn.html">LEARN</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="quiz.html">QUIZ</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>LEARN</h1>
+            <p>Yuk kita belajar tentang Busana Anak 
+                <br>itu seperti apa dan apa saja macam-macamnya !</p>
+    </section>
+
+<!-------Study Content------>
+<section class="study">
+    <div class="row">
+        <div class="study-col">
+            <h1>BUSANA ANAK</h1>
+            <p>Busana Anak adalah segala sesuatu yang dipakai oleh anak yang berusia 1 sampai 12 tahun, dimana dimulai dari
+                ujung kepala hingga ujung kaki. Pada proses mendesain pakaian anak-anak, seorang desainer busana harus mempertimbangkan
+                karakter anak. Karakter anak pada umumnya ada yang aktif, spontan, energik, pendiam, dan bahkan ceroboh.
+                Dengan dipertimbangkan karakter anak pada proses mendesain, akan mempermudah pekerjaan desainer karena sudah mengetahui
+                model dan bahan pakaian yang seperti apa yang cocok untuk anak tersebut.
+                <br><br>Nah untuk lebih memperdalam pemahaman Anda tentang Busana Anak, silahkan download file materi dibawah ini !
+            </p>
+                <a href="file/materipola.pdf" target="_blank" class="hero-btn red-btn">DOWNLOAD MATERI PDF</a>
+        </div>
+        <div class="study-col">
+            <img src="gambar/bajuanak.jpg">
+        </div>
+    </div>
+</section>
+
+<!-------Footer------>
+<section class="footer">
+    <h4>Benang Sihir</h4>
+    <p>Don't forget to visit our accounts to order or consult.
+        <br>We are looking forward to your presence.</p>
+    <div class="icons">            
+        <a href="https://instagram.com/benangsihir/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://wa.me/6289523289528" target="_blank"><i class="fa fa-whatsapp"></i></a>
+        <a href="contact.html"><i class="fa fa-phone"></i></a>
+        <a href="https://shopee.co.id/benangsihir" target="_blank"><i class="fa fa-shopping-bag"></i></a>
+        <a href="contact.html"><i class="fa fa-envelope-o"></i></a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Megie Yuliyanti</p>
+</section>
+
+
+<!-------JavaScript for Toggle Menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200";
+        }
+    </script>
+</body>
+</html>
